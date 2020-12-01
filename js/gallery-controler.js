@@ -11,7 +11,9 @@ function renderProtfolio() {
                                  <i class="fa fa-plus fa-3x"></i>
                              </div>
                         </div>
+                        <div class="img-cont">
                     <img class="img-fluid" src="img/projects/${project.id}-protfolio-thumb.jpg" >
+                    </div>
                     </a>
                      <div class="portfolio-caption">
                     <h4>${project.title}</h4>

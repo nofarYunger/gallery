@@ -251,7 +251,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
-    max-width: 210px;
+    max-width: 400px;
     margin: 0 auto;
     cursor: pointer;
 }
@@ -286,7 +286,7 @@ header.masthead .intro-text .intro-heading {
     margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption {
-    max-width: 210px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 25px;
     text-align: center;
@@ -310,6 +310,16 @@ header.masthead .intro-text .intro-heading {
         margin: 0 0 30px;
     }
 }
+
+.img-cont img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
 .portfolio-modal .modal-dialog {
     max-width: none;
     height: 100%;
